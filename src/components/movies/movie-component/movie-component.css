@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+.movie-wrapper {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.tile {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tile-title {
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.favorite {
+  color: #f6d70b;
+}
+
+.like-button {
+  border: none;
+  border-radius: 12%;
+  padding: 2px 4px;
+  font-family: "Roboto Condensed" sans-serif;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  background-color: #e50914;
+  color: #f5f5f1;
+  cursor: pointer;
+}
+
+.tile-like {
+  margin: auto;
+  margin-top: 8px;
+}

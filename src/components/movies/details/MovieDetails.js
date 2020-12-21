@@ -3,7 +3,7 @@ import Footer from '../../footer/Footer';
 import MovieDetailsComponent from './details-component/MovieDetailsComponent';
 import './movie-details.css';
 
-const api = "http://api.tvmaze.com/shows";
+const api = "https://api.tvmaze.com/shows";
 
 export const MovieDetails = (props) => {
     const [movie, setMovie] = useState(undefined);
